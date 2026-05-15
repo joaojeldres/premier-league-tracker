@@ -1,0 +1,14 @@
+node {
+
+    stage('Preparation') {
+
+        catchError(buildResult: 'SUCCESS') {
+            sh 'docker rm -f football1 football2 football3 football4'
+        }
+    }
+
+    stage('Build') {
+
+        build 'BuildAppJob'
+    }
+}
