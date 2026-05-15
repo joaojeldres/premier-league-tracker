@@ -1,108 +1,114 @@
 ==============================
- SALIDA docker ps -a
+ TEMPORADA CONSULTADA
 ==============================
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                              PORTS               NAMES
-92c0e7caefba        football-app        "python app.py"     1 second ago        Exited (0) Less than a second ago                       football4
-3ecea04f74ff        football-app        "python app.py"     4 seconds ago       Exited (0) 1 second ago                                 football3
-cd5b753f25bf        football-app        "python app.py"     5 seconds ago       Exited (0) 3 seconds ago                                football2
-ce382580e16c        football-app        "python app.py"     7 seconds ago       Exited (0) 5 seconds ago                                football1
+2020-2021
 
 ==============================
- LOGS football1
+ SALIDA docker ps -a
+==============================
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS                              PORTS                               NAMES
+9764b9b04c6d        football-app                "python app.py"          1 second ago        Exited (0) Less than a second ago                                       football4
+7162a541592e        football-app                "python app.py"          3 seconds ago       Exited (0) 1 second ago                                                 football3
+3a82b11e934c        football-app                "python app.py"          5 seconds ago       Exited (0) 3 seconds ago                                                football2
+236c5426fcac        football-app                "python app.py"          8 seconds ago       Exited (0) 5 seconds ago                                                football1
+afde04661cd2        jenkins/jenkins:lts-jdk17   "/usr/bin/tini -- /u…"   2 hours ago         Up 2 hours                          0.0.0.0:8080->8080/tcp, 50000/tcp   jenkins_server
+
+==============================
+ LOGS football1 - Premier League
 ==============================
 ========================================
  PREMIER LEAGUE & TOP LEAGUES TRACKER
 ========================================
 Liga consultada : Premier League
-Temporada       : 2023-2024
+Temporada       : 2020-2021
 ----------------------------------------
 Campeón / Líder de la temporada:
 Equipo          : Manchester City
+Puntos          : 86
+Partidos jugados: 38
+Victorias       : 27
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Manchester City | PJ: 38 | G: 27 | E: 5 | P: 6 | Pts: 86
+2. Manchester United | PJ: 38 | G: 21 | E: 11 | P: 6 | Pts: 74
+3. Liverpool | PJ: 38 | G: 20 | E: 9 | P: 9 | Pts: 69
+4. Chelsea | PJ: 38 | G: 19 | E: 10 | P: 9 | Pts: 67
+5. Leicester | PJ: 38 | G: 20 | E: 6 | P: 12 | Pts: 66
+----------------------------------------
+Consulta finalizada correctamente.
+
+==============================
+ LOGS football2 - La Liga
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : La Liga
+Temporada       : 2020-2021
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Ath Madrid
+Puntos          : 86
+Partidos jugados: 38
+Victorias       : 26
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Ath Madrid | PJ: 38 | G: 26 | E: 8 | P: 4 | Pts: 86
+2. Real Madrid | PJ: 38 | G: 25 | E: 9 | P: 4 | Pts: 84
+3. Barcelona | PJ: 38 | G: 24 | E: 7 | P: 7 | Pts: 79
+4. Sevilla | PJ: 38 | G: 24 | E: 5 | P: 9 | Pts: 77
+5. Sociedad | PJ: 38 | G: 17 | E: 11 | P: 10 | Pts: 62
+----------------------------------------
+Consulta finalizada correctamente.
+
+==============================
+ LOGS football3 - Serie A
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : Serie A
+Temporada       : 2020-2021
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Inter
 Puntos          : 91
 Partidos jugados: 38
 Victorias       : 28
 ----------------------------------------
 Top 5 de la tabla:
 ----------------------------------------
-1. Manchester City | PJ: 38 | G: 28 | E: 7 | P: 3 | Pts: 91
-2. Arsenal | PJ: 38 | G: 28 | E: 5 | P: 5 | Pts: 89
-3. Liverpool | PJ: 38 | G: 24 | E: 10 | P: 4 | Pts: 82
-4. Aston Villa | PJ: 38 | G: 20 | E: 8 | P: 10 | Pts: 68
-5. Tottenham | PJ: 38 | G: 20 | E: 6 | P: 12 | Pts: 66
+1. Inter | PJ: 38 | G: 28 | E: 7 | P: 3 | Pts: 91
+2. Milan | PJ: 38 | G: 24 | E: 7 | P: 7 | Pts: 79
+3. Atalanta | PJ: 38 | G: 23 | E: 9 | P: 6 | Pts: 78
+4. Juventus | PJ: 38 | G: 23 | E: 9 | P: 6 | Pts: 78
+5. Napoli | PJ: 38 | G: 24 | E: 5 | P: 9 | Pts: 77
 ----------------------------------------
 Consulta finalizada correctamente.
 
 ==============================
- LOGS football2
-==============================
-========================================
- PREMIER LEAGUE & TOP LEAGUES TRACKER
-========================================
-Liga consultada : La Liga
-Temporada       : 2023-2024
-----------------------------------------
-Campeón / Líder de la temporada:
-Equipo          : Real Madrid
-Puntos          : 95
-Partidos jugados: 38
-Victorias       : 29
-----------------------------------------
-Top 5 de la tabla:
-----------------------------------------
-1. Real Madrid | PJ: 38 | G: 29 | E: 8 | P: 1 | Pts: 95
-2. Barcelona | PJ: 38 | G: 26 | E: 7 | P: 5 | Pts: 85
-3. Girona | PJ: 38 | G: 25 | E: 6 | P: 7 | Pts: 81
-4. Atlético Madrid | PJ: 38 | G: 24 | E: 4 | P: 10 | Pts: 76
-5. Athletic Bilbao | PJ: 38 | G: 19 | E: 11 | P: 8 | Pts: 68
-----------------------------------------
-Consulta finalizada correctamente.
-
-==============================
- LOGS football3
-==============================
-========================================
- PREMIER LEAGUE & TOP LEAGUES TRACKER
-========================================
-Liga consultada : Serie A
-Temporada       : 2023-2024
-----------------------------------------
-Campeón / Líder de la temporada:
-Equipo          : Inter Milan
-Puntos          : 94
-Partidos jugados: 38
-Victorias       : 29
-----------------------------------------
-Top 5 de la tabla:
-----------------------------------------
-1. Inter Milan | PJ: 38 | G: 29 | E: 7 | P: 2 | Pts: 94
-2. AC Milan | PJ: 38 | G: 22 | E: 9 | P: 7 | Pts: 75
-3. Juventus | PJ: 38 | G: 19 | E: 14 | P: 5 | Pts: 71
-4. Atalanta | PJ: 38 | G: 21 | E: 6 | P: 11 | Pts: 69
-5. Bologna | PJ: 38 | G: 18 | E: 14 | P: 6 | Pts: 68
-----------------------------------------
-Consulta finalizada correctamente.
-
-==============================
- LOGS football4
+ LOGS football4 - Bundesliga
 ==============================
 ========================================
  PREMIER LEAGUE & TOP LEAGUES TRACKER
 ========================================
 Liga consultada : Bundesliga
-Temporada       : 2023-2024
+Temporada       : 2020-2021
 ----------------------------------------
 Campeón / Líder de la temporada:
-Equipo          : Bayer Leverkusen
-Puntos          : 90
+Equipo          : Bayern Munich
+Puntos          : 78
 Partidos jugados: 34
-Victorias       : 28
+Victorias       : 24
 ----------------------------------------
 Top 5 de la tabla:
 ----------------------------------------
-1. Bayer Leverkusen | PJ: 34 | G: 28 | E: 6 | P: 0 | Pts: 90
-2. Stuttgart | PJ: 34 | G: 23 | E: 4 | P: 7 | Pts: 73
-3. Bayern Munich | PJ: 34 | G: 23 | E: 3 | P: 8 | Pts: 72
-4. RB Leipzig | PJ: 34 | G: 19 | E: 8 | P: 7 | Pts: 65
-5. Borussia Dortmund | PJ: 34 | G: 18 | E: 9 | P: 7 | Pts: 63
+1. Bayern Munich | PJ: 34 | G: 24 | E: 6 | P: 4 | Pts: 78
+2. RasenBallsport Leipzig | PJ: 34 | G: 19 | E: 8 | P: 7 | Pts: 65
+3. Dortmund | PJ: 34 | G: 20 | E: 4 | P: 10 | Pts: 64
+4. Wolfsburg | PJ: 34 | G: 17 | E: 10 | P: 7 | Pts: 61
+5. Ein Frankfurt | PJ: 34 | G: 16 | E: 12 | P: 6 | Pts: 60
 ----------------------------------------
 Consulta finalizada correctamente.
