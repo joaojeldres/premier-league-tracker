@@ -1,0 +1,108 @@
+==============================
+ SALIDA docker ps -a
+==============================
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                              PORTS               NAMES
+92c0e7caefba        football-app        "python app.py"     1 second ago        Exited (0) Less than a second ago                       football4
+3ecea04f74ff        football-app        "python app.py"     4 seconds ago       Exited (0) 1 second ago                                 football3
+cd5b753f25bf        football-app        "python app.py"     5 seconds ago       Exited (0) 3 seconds ago                                football2
+ce382580e16c        football-app        "python app.py"     7 seconds ago       Exited (0) 5 seconds ago                                football1
+
+==============================
+ LOGS football1
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : Premier League
+Temporada       : 2023-2024
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Manchester City
+Puntos          : 91
+Partidos jugados: 38
+Victorias       : 28
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Manchester City | PJ: 38 | G: 28 | E: 7 | P: 3 | Pts: 91
+2. Arsenal | PJ: 38 | G: 28 | E: 5 | P: 5 | Pts: 89
+3. Liverpool | PJ: 38 | G: 24 | E: 10 | P: 4 | Pts: 82
+4. Aston Villa | PJ: 38 | G: 20 | E: 8 | P: 10 | Pts: 68
+5. Tottenham | PJ: 38 | G: 20 | E: 6 | P: 12 | Pts: 66
+----------------------------------------
+Consulta finalizada correctamente.
+
+==============================
+ LOGS football2
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : La Liga
+Temporada       : 2023-2024
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Real Madrid
+Puntos          : 95
+Partidos jugados: 38
+Victorias       : 29
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Real Madrid | PJ: 38 | G: 29 | E: 8 | P: 1 | Pts: 95
+2. Barcelona | PJ: 38 | G: 26 | E: 7 | P: 5 | Pts: 85
+3. Girona | PJ: 38 | G: 25 | E: 6 | P: 7 | Pts: 81
+4. Atlético Madrid | PJ: 38 | G: 24 | E: 4 | P: 10 | Pts: 76
+5. Athletic Bilbao | PJ: 38 | G: 19 | E: 11 | P: 8 | Pts: 68
+----------------------------------------
+Consulta finalizada correctamente.
+
+==============================
+ LOGS football3
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : Serie A
+Temporada       : 2023-2024
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Inter Milan
+Puntos          : 94
+Partidos jugados: 38
+Victorias       : 29
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Inter Milan | PJ: 38 | G: 29 | E: 7 | P: 2 | Pts: 94
+2. AC Milan | PJ: 38 | G: 22 | E: 9 | P: 7 | Pts: 75
+3. Juventus | PJ: 38 | G: 19 | E: 14 | P: 5 | Pts: 71
+4. Atalanta | PJ: 38 | G: 21 | E: 6 | P: 11 | Pts: 69
+5. Bologna | PJ: 38 | G: 18 | E: 14 | P: 6 | Pts: 68
+----------------------------------------
+Consulta finalizada correctamente.
+
+==============================
+ LOGS football4
+==============================
+========================================
+ PREMIER LEAGUE & TOP LEAGUES TRACKER
+========================================
+Liga consultada : Bundesliga
+Temporada       : 2023-2024
+----------------------------------------
+Campeón / Líder de la temporada:
+Equipo          : Bayer Leverkusen
+Puntos          : 90
+Partidos jugados: 34
+Victorias       : 28
+----------------------------------------
+Top 5 de la tabla:
+----------------------------------------
+1. Bayer Leverkusen | PJ: 34 | G: 28 | E: 6 | P: 0 | Pts: 90
+2. Stuttgart | PJ: 34 | G: 23 | E: 4 | P: 7 | Pts: 73
+3. Bayern Munich | PJ: 34 | G: 23 | E: 3 | P: 8 | Pts: 72
+4. RB Leipzig | PJ: 34 | G: 19 | E: 8 | P: 7 | Pts: 65
+5. Borussia Dortmund | PJ: 34 | G: 18 | E: 9 | P: 7 | Pts: 63
+----------------------------------------
+Consulta finalizada correctamente.
